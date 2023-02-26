@@ -1,0 +1,670 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+body{
+  background-color: #f5f5f5;
+}
+
+header{
+  background-color: #2b2748;
+  height: 500px;
+}
+
+nav{
+  padding: 8px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 50px;
+  color: rgb(206, 199, 199);
+  font-weight: 200;
+  font-size: small;
+}
+
+.nav-item-active{
+  font-size: small;
+  color: blue;
+  border: 1px solid #f8f8f8;
+  padding: 3px;
+  background-color: #F8F6FF;
+}
+
+nav svg{
+  padding: 9px;
+}
+
+.logo{
+  position: relative;
+  top:-30px;
+  right: -60px;
+  padding: 10px;
+}
+
+.header-text{
+  margin: 80px;
+}
+
+.header-text h2{
+  width: 660px;
+  font-size: 45px;
+  color: white;
+}
+
+.header-text p{
+  color: rgb(206, 199, 199);
+}
+
+.header-image{
+  float: right;
+  position: relative;
+  top: -360px;
+  height: 450px;
+  border-radius: 25px;
+}
+
+.companies{
+  margin: 12px;
+  width: 890px;
+}
+
+.company-items{
+  padding: 40px;
+  color: black;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.api{
+  width: 100%;
+  height: 400px;
+}
+
+.api-heading{
+  margin-top: 50px;
+  margin-left: 50px;
+  font-weight: 1800;
+  font-style: bold;
+  font-size: 40px;
+}
+
+.cards{
+  display: flex;
+  width: 100%;
+  margin: 20px;
+}
+
+.card-active{
+  margin-left: 5px;
+  margin-top: -300px;
+  background-color: #bccfc1;
+  color: #2b2748;
+  padding: 50px;
+  width: 10%;
+  gap: 5px;
+  box-shadow: 0px;
+  border-radius: 20px;
+}
+
+.card{
+  margin-top: -300px;
+  padding: 50px;
+  width: 20%;
+}
+
+.blog-heading{
+  margin: 52px;
+  font-weight: 1800;
+  font-style: bold;
+  position: relative;
+  top: -130px;
+}
+
+.blog-cards{
+  box-shadow:inset;
+  position: relative;
+  top: -90px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.blog-card{
+  border-radius: 75px 10px 10px 10px ;
+  width: 45%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color:#ffffff;
+}
+
+.blog-image{
+  margin: 0;
+  height: 100%;
+}
+
+.blog-content{
+  display: flex;
+  flex-direction: column;
+  font-size: large;
+  text-align: center;
+  padding: 27px;
+}
+
+.blog-content h6{
+  color: #2b2748;
+}
+
+.blog-bottom{
+  position: relative;
+  bottom:  -150px;
+  left: -150px;
+}
+
+.blog-author{
+  position: relative;
+  bottom: -65px;
+  left: -70px;
+}
+
+.faq-section{
+  position: relative;
+  bottom: -30px;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: #E9EDFF;
+}
+
+.faq-content{
+  display: flex;
+  flex-direction: column;
+  font-size: large;
+  padding: 27px;
+  gap: 30px;
+}
+
+.faq-section button{
+  border: 1px solid #2b2748;
+  width: 130px;
+  background-color: #2b2748;
+  color: white;
+  padding: 4px;
+  cursor: pointer;
+}
+.faq-image{
+  position: relative;
+  right: -60px;
+}
+
+.download-section{
+  position: relative;
+  bottom: -60px;
+  display: flex;
+  padding: 90px;
+  justify-content: space-around;
+}
+
+.download-content{
+  font-size: large;
+  text-align: center; 
+}
+
+.download-email input{
+  border: 1px solid #FFFFFF;
+  width: 410px;
+  height: 40px;
+  border-radius: 30px;
+  padding: 6px;
+  background-color: #E9EDFF;
+  text-align: center;
+}
+
+.download-email button{
+  color: white;
+  border: 1px solid #2b2748;
+  width: 160px;
+  border-radius: 30px;
+  height: 55px;
+  padding: 6px;
+  background-color: #2b2748;
+  position: relative;
+  left: -50px;
+}
+
+.footer-section{
+  border: 1px solid black;
+  display: flex;
+  position: relative;
+  bottom: -70px;
+  background-color: #2b2748;
+  padding: 60px;
+}
+
+.footer-left{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.list{
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  color: #f5f5f5;
+}
+
+.footer-logo{
+  height: 80px;
+  width: 120px;
+  padding: 50px;
+}
+
+.footer-right{
+  width: 950px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.footer-right img{
+  position: relative;
+  top: -90px;
+  left: 200px;
+  height: 50px;
+}
+
+.logos-list{
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  color: #f5f5f5;
+}
+@media screen and (max-width:415px){
+  body{
+    padding: 0;
+    margin: 0;
+  }
+  .header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+  }
+  nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+  }
+  .nav-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+  }
+  .nav-item-active{
+    width: 60px;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+  }
+  nav :nth-child(7){
+    height: 15px;
+    width: 15px;
+  }
+  .logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 90px;
+    position: relative;
+    left: -10px;
+    padding: 10px;
+  }
+
+  .header-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    background-color: #2b2748;
+    position: relative;
+    top: -40px;
+  }
+  .header-text h2{
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    width: 260px;
+    justify-content: center;
+    margin: auto;
+  }
+  .header-text p{
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+    width: 260px;
+    justify-content: center;
+    margin: auto;
+  }
+  img[src="./images/Rectangle_12.png"]{
+   width: 60px;
+  }
+  .header-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+  }
+  img[src="./images/IMAGE HERE.png"]{
+    height: 350px;
+    position: relative;
+    top: -45px;
+    left: 0px;
+  }
+  .companies{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+  .api{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    top: 800px;
+    left: -50px;
+  }
+  .api-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+  }
+  .cards, .card-active, .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+    gap: 20px;
+  }
+  .card, .card-active{
+    position: relative;
+    top: 50px;
+    height: 350px;
+    width: 120px;
+  }
+  .blog-heading, .blog-cards{
+    position: relative;
+    top: 1700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    gap: 10px;
+  }
+  .blog-card{
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+  }
+  .blog-content h3{
+    font-size: 6px;
+  }
+  .blog-content h6{
+    font-size: 15px;
+  }
+  .blog-content small{
+    font-size: 8px;
+    padding: 10px;
+  }
+  .faq-section{
+    position: relative;
+    top: 1800px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+  }
+  img[src="./images/Rectangle_38-2 (1).png"]{
+    height: 120px;
+    float: right;
+  }
+  .download-section,.download-content,.download-email{
+    position: relative;
+    top: 900px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+  }    
+  .download-email input{
+    width: 250px;
+    justify-content: center;
+    margin: auto;
+    text-align: center;      
+  }
+  .download-email button{
+    width: 100px;
+    justify-content: center;
+    margin: auto;
+    text-align: center;     
+  }
+  .footer-section{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 1800px;
+  }
+  .footer-left, .list, .footer-right, .footer-logos, .logos-list, .list-item, .footer-logos{
+    display: flex;
+    flex-direction: column;
+    float: left;
+  }
+}
+@media screen and (max-width:415px){
+    body{
+      padding: 0;
+      margin: 0;
+    }
+    .header{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: auto;
+    }
+    nav{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: auto;
+    }
+    .nav-item{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: auto;
+    }
+    .nav-item-active{
+      width: 60px;
+      justify-content: center;
+      margin: auto;
+      text-align: center;
+    }
+    nav :nth-child(7){
+      height: 15px;
+      width: 15px;
+    }
+    .logo{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: auto;
+      width: 90px;
+      position: relative;
+      left: -10px;
+      padding: 10px;
+    }
+
+    .header-text{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: auto;
+      position: relative;
+      background-color: #2b2748;
+      position: relative;
+      top: -40px;
+    }
+    .header-text h2{
+      font-size: 20px;
+      display: flex;
+      text-align: center;
+      padding: 10px;
+      width: 260px;
+      justify-content: center;
+      margin: auto;
+    }
+    .header-text p{
+      font-size: 12px;
+      text-align: center;
+      padding: 10px;
+      width: 260px;
+      justify-content: center;
+      margin: auto;
+    }
+    img[src="./images/Rectangle_12.png"]{
+     width: 60px;
+    }
+    .header-image{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: auto;
+    }
+    img[src="./images/IMAGE HERE.png"]{
+      height: 350px;
+      position: relative;
+      top: -45px;
+      left: 0px;
+    }
+    .companies{
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      margin: 0;
+    }
+    .api{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: auto;
+      position: relative;
+      top: 800px;
+      left: -50px;
+    }
+    .api-heading{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: auto;
+    }
+    .cards, .card-active, .card{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: auto;
+      padding: 20px;
+      gap: 20px;
+    }
+    .card, .card-active{
+      position: relative;
+      top: 50px;
+      height: 350px;
+      width: 120px;
+    }
+    .blog-heading, .blog-cards{
+      position: relative;
+      top: 1700px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: auto;
+      padding: 10px;
+      gap: 10px;
+    }
+    .blog-card{
+      height: fit-content;
+      width: fit-content;
+      padding: 10px;
+    }
+    .blog-content h3{
+      font-size: 6px;
+    }
+    .blog-content h6{
+      font-size: 15px;
+    }
+    .blog-content small{
+      font-size: 8px;
+      padding: 10px;
+    }
+    .faq-section{
+      position: relative;
+      top: 1800px;
+      height: fit-content;
+      display: flex;
+      flex-direction: column;
+    }
+    img[src="./images/Rectangle_38-2 (1).png"]{
+      height: 120px;
+      float: right;
+    }
+    .download-section,.download-content,.download-email{
+      position: relative;
+      top: 900px;
+      height: fit-content;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: auto;
+    }    
+    .download-email input{
+      width: 250px;
+      justify-content: center;
+      margin: auto;
+      text-align: center;      
+    }
+    .download-email button{
+      width: 100px;
+      justify-content: center;
+      margin: auto;
+      text-align: center;     
+    }
+    .footer-section{
+      height: fit-content;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      top: 1800px;
+    }
+    .footer-left, .list, .footer-right, .footer-logos, .logos-list, .list-item, .footer-logos{
+      display: flex;
+      flex-direction: column;
+      float: left;
+    }
+  }
