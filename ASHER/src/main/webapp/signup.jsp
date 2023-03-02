@@ -32,7 +32,7 @@
       <label class="my-2" for="signupInput">Password : </label>
       <input id="signupPasswordInput"/>
       <p>First Time user must fill up this form & Register Before Signing In.</p>
-      <a href="signupSuccess.jsp" class="btn btn-primary">Signup/Register</a>
+      <a href="signupSuccess.jsp" class="btn btn-primary" onclick="insertData();">Signup/Register</a>
     </div>
   </div>
 <!--//////////////////-->
@@ -40,3 +40,23 @@
   
     </body>
 </html>
+<script>
+    function insertData(){
+        debugger;
+                    var vUserName = $("#signupUsernameInput").val();
+                    var vPassword = $("#signupPasswordInput").val();
+                    console.log(vUserName);
+                    console.log(vPassword);
+                    $.ajax({
+                        url:"insert.java",
+                        method:"post",
+                        data: {
+                            UserName:vUserName,
+                            Password:vPassword
+                        },
+                        success: function(data){
+                            alert("Successfully Inserted!!!")
+                        }
+                    });
+                }
+</script>

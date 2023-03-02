@@ -1,6 +1,6 @@
 <%-- 
-    Document   : loginpage
-    Created on : 01-Mar-2023, 11:42:00 AM
+    Document   : signup
+    Created on : 01-Mar-2023, 11:23:57 AM
     Author     : ashwa
 --%>
 
@@ -9,9 +9,34 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Successfully Registered!</h1>
+        <h1>Hello World!</h1>
+
+<!--//////////////////-->
+<div class="d-flex aligns-items-center justify-content-center card text-center w-75 mx-auto">
+    <div class="card-header">
+      <ul class="nav nav-tabs card-header-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="true" href="#">Login with your Credentials</a>
+        </li>
+      </ul>
+    </div>
+    <div class="card-body">
+        <label for="signupInput">Username : </label>
+      <input id="signupUsernameInput"/>
+      <br>
+      <label class="my-2" for="signupInput">Password : </label>
+      <input id="signupPasswordInput"/>
+      <p>First Time user must Register Before Signing In.</p>
+      <a href="loginSuccess.jsp" class="btn btn-primary">Signin</a>
+    </div>
+  </div>
+<!--//////////////////-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  
     </body>
 </html>
